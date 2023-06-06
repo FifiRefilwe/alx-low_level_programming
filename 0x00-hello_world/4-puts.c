@@ -1,13 +1,18 @@
 #include <stdio.h>
+#include <string.h>
+
 /**
- * main - 4-puts.c
- *description - write a c program that prints exactly
- * 
- * Return: Always 0 (success)
- */
+*main - Main function of my project
+*
+*
+*Return: return 0 everytime
+*/
 int main(void)
 {
-	puts("\"programming is like building a multilingual puzzle");
 
+	char displayed[52];
+
+	strcpy(displayed, "\"Programming is like building a multilingual puzzle");
+	puts(displayed);
 	return (0);
 }
