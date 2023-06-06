@@ -2,8 +2,8 @@
 
 /**
  * _memcpy - Entry point
- * @s: pointed destination
- * @b: constant byte
+ * @dest: pointed destination
+ * @src: constant byte
  * @n: bytes
  * Return: Always 0 (success)
  */
