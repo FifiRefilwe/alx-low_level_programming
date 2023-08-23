@@ -1,5 +1,3 @@
-#endif
-
 #include <unistd.h>
 
 /**
